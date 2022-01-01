@@ -6,44 +6,44 @@ Creating mathematical games (and bots to play them) with functional programming.
 
 ## Checklist 
 Impartial Games:
-1. [ ] Nim (multi stack)
-2. [ ] Sprouts
-3. [ ] Cram
-4. [ ] Hackenbush
+- [ ] Nim (multi stack)
+- [ ] Sprouts
+- [ ] Cram
+- [ ] Hackenbush
 	- [ ] Original
 	- [ ] Blue-Red
 	- [ ] Blue-Red-Green
-5. [ ] Dots and Boxes
+- [ ] Dots and Boxes
 
 Partisan Games
-6. [ ] Tic-tac-toe
-7. [ ] Blockbusting
-8. [ ] Connect Four
+- [ ] Tic-tac-toe
+- [ ] Blockbusting
+- [ ] Connect Four
 
 Larger Partisan Games
-9. [ ] Chess
-10. [ ] Go
-11. [ ] Reversi
+- [ ] Chess
+- [ ] Go
+- [ ] Reversi
 
 Games of Chance 
-12. [ ] Monopoly
+- [ ] Monopoly
 
 Games of Chance and Imperfect Information
-13. [ ] Dominoes
+- [ ] Dominoes
 	- [ ] Draw
 	- [ ] Block
 	- [ ] All fives
 	- [ ] All threes
-14. [ ] Poker
-15. [ ] Figgie
-16. [ ] Bridge
+- [ ] Poker
+- [ ] Figgie
+- [ ] Bridge
 
 Solitaire Games
-17. [ ] Brainvita
-18. [ ] Sudoku
-19. [ ] Kakuro
-20. [ ] Loop the Loop
-21. [ ] Nonograms
+- [ ] Brainvita
+- [ ] Sudoku
+- [ ] Kakuro
+- [ ] Loop the Loop
+- [ ] Nonograms
 
 ## Functional Programming Notes
 - Try to return changes of state to the world from your functions. Functions that modify the world should be unit, and try to make one function perform only one unit operation
