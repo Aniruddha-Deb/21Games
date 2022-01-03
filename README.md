@@ -10,9 +10,9 @@ Impartial Games:
 - [ ] Sprouts
 - [ ] Cram
 - [ ] Hackenbush
-	- [ ] Original
-	- [ ] Blue-Red
-	- [ ] Blue-Red-Green
+  - [ ] Original
+  - [ ] Blue-Red
+  - [ ] Blue-Red-Green
 - [ ] Dots and Boxes
 
 Partisan Games
@@ -30,10 +30,10 @@ Games of Chance
 
 Games of Chance and Imperfect Information
 - [ ] Dominoes
-	- [ ] Draw
-	- [ ] Block
-	- [ ] All fives
-	- [ ] All threes
+  - [ ] Draw
+  - [ ] Block
+  - [ ] All fives
+  - [ ] All threes
 - [ ] Poker
 - [ ] Figgie
 - [ ] Bridge
@@ -51,17 +51,22 @@ Solitaire Games
 - Keep functions small and self-contained
 
 ## Combinatorial Game Theory Notes
-- Game: 
-- Types of Games
-	- Partial and Impartial
-	- Zero Sum and non Zero Sum
-	- Perfect and Imperfect information
-	- 
-
+- **Combinatorial Game** - 
+- Partisan and Impartial Combinatorial Games
+- Concepts
+  - Cooling and Heating
+  - Game tree
+    - Ply
+	- Branching Factor (b) and Depth (d)
+  - Game tree search
+    - minimax
+	- alpha-beta pruning
 
 ## Resources
 
 - [Sp.268 The Theory of Toys and Games (MIT)](http://web.mit.edu/sp.268/www/)
+- [Shisuko's CodeForces blog on nimbers and Sprague-Grundy Theory](https://codeforces.com/blog/entry/66040)
+- [Introduction to _On Numbers and Games_](https://www.cs.cmu.edu/afs/cs/academic/class/15859-s05/www/lecture-notes/comb-games-notes.pdf)
 - _On Numbers and Games_ - Conway
 - _Winning ways for your mathematical plays_ - Conway, Berlekamp, Guy
 - _The Dots and Boxes Game_ - Berlekamp
