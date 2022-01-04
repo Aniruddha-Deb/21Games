@@ -4,27 +4,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <title></title>
+  <script type="text/javascript" src="controller.js"></script>
+  <script type="text/javascript" src="two.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload='init()'>
   <div class="header"></div>
   <div class="game">
-    <div class="title">Nim</div>
-    <div class="nim-stacks">
-      <div class="nim-stack"></div>
-    </div>
+    <div class="title" id='title'>Nim</div>
+    <div class="nim-stacks" id='nim-game'></div>
     <div class="start-button-div">
-      <span class="start-button">Start</span>
+      <span class="start-button" id='start-button' onclick="start()">Start</span>
     </div>
   </div>
-  <div class="scoreboard">
-    <div class="scorecard player1-scorecard">
+  <div class="scoreboard" id='scoreboard'>
+    <div class="scorecard player1-scorecard" id="p1-scorecard">
       <div class="scorecard-title">Player 1</div>
-      <div class="scorecard-score">0</div>
+      <div class="scorecard-score" id="p1-score">0</div>
     </div>
-    <div class="scorecard player2-scorecard">
+    <div class="scorecard player2-scorecard" id="p1-scorecard">
       <div class="scorecard-title">Player 2</div>
-      <div class="scorecard-score">0</div>
+      <div class="scorecard-score" id="p2-score">0</div>
     </div>
   </div>
 </body>
